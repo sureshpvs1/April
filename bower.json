@@ -1,0 +1,25 @@
+{
+  "name": "healt",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tajnoor"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.0",
+    "bootstrap": "3.3.7",
+    "jquery": "^3.3.1",
+    "angular-ui-router": "^1.0.15",
+    "angular-route": "1.6.0"
+  }
+}

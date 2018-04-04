@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <!--library css-->
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/main.css">
+
+</head>
+<body>
+<div ng-include = "'components/header/header.html'"></div>
+
+
+<ng-view></ng-view>
+
+
+
+<!--library js-->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+<!--local js-->
+<script src="app.js"></script>
+<script src="routes/home/homeController.js"></script>
+<script src="routes/about/aboutController.js"></script>
+<script src="routes/profie/profieController.js"></script>
+
+</body>
+</html>
